@@ -1,0 +1,464 @@
+#sec1.sec-1 {
+    background: #F6E300;
+}
+
+.sec-2 {
+    background: #000A1A;
+}
+
+#sec1 .ff-faq {
+    color: #000;
+    font-family: ' Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+#sec1.ff-content {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+/* accordian-1 */
+#sec1 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: #FFF03F;
+}
+
+#sec1 .accordion-flush .accordion-collapse {
+    border-width: 0;
+    background: #FFF03F;
+}
+
+#sec1 .accordion-item {
+    border-color: #FFF03F;
+    margin-top: 8px;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec1 .accordion-button:not(.collapsed) {
+    color: black;
+}
+
+#sec1 .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+#sec1 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+
+#sec2 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+}
+
+#sec2 .accordion {
+    padding-bottom: 20px;
+}
+
+#sec2 .accordion-button {
+    border-radius: 150px !important;
+    background-color: #031227;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    border: none;
+    opacity: 100%;
+}
+
+
+
+#sec2 .accordion-item {
+    background-color: #000A1A !important;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec2 .color {
+    color: #FFFFFF;
+    opacity: 70%;
+
+}
+
+
+#sec2 .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #031227;
+    border: none;
+    opacity: 100%;
+
+}
+
+
+
+#sec2 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none;
+}
+
+/* accordian-3 */
+#sec3 .accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background: #121111;
+    margin-top: 12px;
+    /* border: 1px solid silver; */
+}
+
+#sec3 .accordion-flush .accordion-collapse {
+    border-width: 0;
+    color: #FFFFFF;
+
+}
+
+#sec3 .accordion-item {
+
+    margin-top: 8px;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #121111;
+    border: 1px solid silver;
+}
+
+#sec3 .accordion-button:not(.collapsed) {
+    color: white;
+    border: none !important;
+}
+
+#sec3 .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+#sec3 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+#sec3 .accordion-button {
+    color: #FFFFFF !important;
+    border: none;
+}
+
+#sec3 .accordion {
+    padding-top: 20px;
+}
+
+.circle2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../images/Image.png);
+    position: absolute;
+    top: 20px;
+    left: -40px
+}
+
+
+.head2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 40px;
+
+}
+
+.head3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.txt {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 370px;
+    padding-left: 45px;
+    padding-right: 35px;
+
+}
+
+.txt1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7B7B7B;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+
+.card1 {
+    max-width: 470px;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+    margin-right: 100px;
+    margin-left: 85px;
+    margin-bottom: 30px;
+
+}
+
+.slick-dots li.slick-active button:before {
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: black;
+    margin: 0 15px;
+
+}
+
+.slick-dots li {
+    margin: 0 15px !important;
+
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: orangered;
+}
+
+.slick-dots li button:before {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card2 {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+.pos-ab {
+    position: absolute;
+    top: 44%;
+    left: 3%;
+}
+
+.pos-abs {
+    position: absolute;
+    top: 44%;
+    right: 3%;
+}
+
+.circle:hover {
+    border-color: #FF5300;
+}
+
+div span svg path:hover {
+    fill: #FF5300;
+}
+
+.my-slide .slick-dots li button:before {
+    content: "";
+}
+
+.my-slide .slick-dots li.slick-active button:before {
+    display: none;
+}
+
+.heading11 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #373737;
+}
+
+.heading12 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+    max-width: 542px;
+}
+
+.col-orange {
+    color: #FF5300;
+}
+
+.bg-orange {
+    background-color: #FFF7F4;
+    ;
+}
+
+.t1 {
+    font-family: ' Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7B7B7B;
+}
+
+.name {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF5300;
+
+}
+
+.t2 {
+
+    font-family: ' Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card3 {
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mw-217 {
+    min-width: 217px;
+}
+
+#slick1 .slick-dots li.slick-active button:before {
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+#slick1 .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color:black;
+}
+
+#slick1 .slick-dots li {
+    margin: 0 25px;
+}
+
+.t3 {
+
+    font-family: ' Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF5300;
+}
+
+#slick1 .slick-dots li button:before {
+    font-size: 13px;
+}
+.heading1{
+    
+        font-family:' Work Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 308px;
+        color: #373737;
+}
+.name2{
+        font-family:' Work Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #373737;
+}
+.date{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7B7B7B;
+
+}
+.dot11{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #7B7B7B;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
