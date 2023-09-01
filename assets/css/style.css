@@ -42,15 +42,21 @@
     width: 992px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    background-color: #FFF03F;
 }
 
 #sec1 .accordion-button:not(.collapsed) {
     color: black;
+    box-shadow: none;
 }
 
 #sec1 .accordion-button:focus {
     border-color: none !important;
     box-shadow: none !important;
+}
+#sec1 .accordion-button{
+    border: none;
 }
 
 #sec1 .accordion-button::after {
@@ -106,6 +112,7 @@
     background-color: #031227;
     border: none;
     opacity: 100%;
+    box-shadow: none;
 
 }
 
@@ -125,7 +132,6 @@
 .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;
     background: #121111;
-    margin-top: 12px;
     /* border: 1px solid silver; */
 }
 
@@ -148,6 +154,7 @@
 #sec3 .accordion-button:not(.collapsed) {
     color: white;
     border: none !important;
+    box-shadow: none;
 }
 
 #sec3 .accordion-button:focus {
@@ -285,7 +292,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px black solid;
+    border: 3px black solid;
 }
 
 .pos-ab {
@@ -300,14 +307,19 @@
     right: 3%;
 }
 
-.circle:hover {
+ .prev:hover.circle {
     border-color: #FF5300;
 }
 
-div span svg path:hover {
+ .prev:hover span svg path {
     fill: #FF5300;
 }
-
+.next:hover.circle{
+    border-color: #FF5300;
+}
+.next:hover span svg path{
+fill: #FF5300;
+}
 .my-slide .slick-dots li button:before {
     content: "";
 }
